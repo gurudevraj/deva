@@ -1,0 +1,85 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+    var x = document.getElementById("text").value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+</head>
+<body>
+
+<form onsubmit="return validateForm()" method="post">
+Name: <input id="text" type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+-->
+
+
+
+<!--<html>
+<head><title>joe's pizza</title></head>
+<body>
+	<h1>BOOKING DETAILS</H1>
+	<form onsubmit="func()" >
+		<fieldset>
+			<legend>Personal Details</legend>
+			First Name &emsp; :<input id="first" type="text"><br>
+			Last Name &emsp;:<input id="first" type="text"><br>
+			E-mail &emsp; &emsp;:<input id="fir" type="email"><br>
+			DOB &emsp;&emsp; :<input id="firs" type="date"><br>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+	<script >
+	function func(){
+	var x = document.getElementById("first").value;
+	if(x=="")
+	{ alert("Please fill your columns");return false;}
+}
+	</script>
+</body>
+</html>
+
+			-->
+			
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Inline form</h2>
+  <p>Make the viewport larger than 768px wide to see that all of the form elements are inline, left aligned, and the labels are alongside.</p>
+  <form class="form-inline" action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
